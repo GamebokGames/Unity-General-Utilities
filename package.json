@@ -1,11 +1,11 @@
 {
-  "name": "com.Gamebok.GeneralUtilities",
-  "version": "0.1.2",
-  "displayName": "General Utilities",
+  "name": "com.gamebok.unity-general-utilities",
+  "version": "1.0.0",
+  "displayName": "Gamebok Unity Utilities",
   "description": "General Utilities for Gamebok Projects",
   "unity": "2018.3",
-  "documentationUrl": "https://example.com/",
-  "licensesUrl": "https://example.com/licensing.html",
+  "documentationUrl": "https://github.com/GamebokGames/Unity-General-Utilities",
+  "licensesUrl": "https://github.com/GamebokGames/Unity-General-Utilities/blob/main/LICENSE.md",
   "keywords": [
     "editor",
     "tool",
