@@ -1,8 +1,8 @@
 {
-  "name": "com.Superplay.GeneralUtilities",
+  "name": "com.Gamebok.GeneralUtilities",
   "version": "0.1.2",
   "displayName": "General Utilities",
-  "description": "General Utilities for Superplay Projects",
+  "description": "General Utilities for Gamebok Projects",
   "unity": "2018.3",
   "documentationUrl": "https://example.com/",
   "licensesUrl": "https://example.com/licensing.html",
