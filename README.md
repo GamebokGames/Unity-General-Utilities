@@ -21,3 +21,6 @@ Find them under **Gamebok/Utility/Open**
 
 * Open [Persistent Data Path](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html)
 * Open Terminal (MacOS, Windows Terminal, CMD etc)
+
+### Context Menu Shortcuts
+* Open File/Folder in VSCode
