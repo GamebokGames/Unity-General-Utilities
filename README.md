@@ -10,8 +10,13 @@
 2. Click "Install package from git url"
 4. Paste ```https://github.com/GamebokGames/Unity-General-Utilities.git```
 
+## Contributing
+1. Clone in a **new** or **exisiting** Unity Project
+2. Modify
+3. **Push changes** or create a **pull request**
+
 ## Features
-### Shortcuts
+### Menu Item Shortcuts
 Find them under **Gamebok/Utility/Open**
 
 * Open [Persistent Data Path](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html)
