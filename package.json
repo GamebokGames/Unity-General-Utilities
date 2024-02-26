@@ -1,0 +1,19 @@
+{
+  "name": "com.Superplay.GeneralUtilities",
+  "version": "0.1.2",
+  "displayName": "General Utilities",
+  "description": "General Utilities for Superplay Projects",
+  "unity": "2018.3",
+  "documentationUrl": "https://example.com/",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "editor",
+    "tool",
+    "utility"
+  ],
+  "author": {
+    "name": "Macawls",
+    "email": "josh@macawls.dev",
+    "url": "https://macawls.dev/"
+  }
+}

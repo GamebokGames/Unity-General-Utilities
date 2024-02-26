@@ -1,0 +1,14 @@
+{
+    "name": "Superplay.GeneralUtilities.Editor",
+    "rootNamespace": "Superplay.GeneralUtilities.Editor",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
