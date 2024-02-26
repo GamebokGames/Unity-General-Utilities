@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Superplay.GeneralUtilities.Editor
+namespace Gamebok.GeneralUtilities.Editor
 {
     public static class OpenPersistentDataPath
     {

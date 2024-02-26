@@ -1,6 +1,6 @@
 {
-    "name": "Superplay.GeneralUtilities.Editor",
-    "rootNamespace": "Superplay.GeneralUtilities.Editor",
+    "name": "Gamebok.GeneralUtilities.Editor",
+    "rootNamespace": "Gamebok.GeneralUtilities.Editor",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
