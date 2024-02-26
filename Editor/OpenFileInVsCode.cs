@@ -32,7 +32,7 @@ namespace Gamebok.GeneralUtilities.Editor
             var processStartInfo = new ProcessStartInfo
             {
                 FileName = "open",
-                Arguments = "-a Visual\\ Studio\\ Code " + combined, // Use -a to specify the application
+                Arguments = "-a Visual\\ Studio\\ Code " + combined,
                 UseShellExecute = false,
                 RedirectStandardOutput = false,
                 RedirectStandardError = false,
