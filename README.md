@@ -60,7 +60,7 @@ public class MultiplayerManagerProxy : Proxy<IMultiplayerManager>, IMultiplayerM
 2. Register your Instance
 
 ```cs
-public class MultiplayerManager : MonoSingleton<IMultiplayerManager> IMultiplayerManager 
+public class MultiplayerManager : Singleton<MultiplayerManager>, IMultiplayerManager 
 {
     [SerializedField] private MultiplayerManagerProxy proxy;
     
