@@ -66,7 +66,7 @@ public class MultiplayerManager : MonoSingleton<IMultiplayerManager> IMultiplaye
     
     public void Awake()
     {
-      proxy.Register(this)
+       proxy.Register(this)
     }
 }
 ```
