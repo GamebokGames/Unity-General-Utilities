@@ -20,7 +20,7 @@
 ### Editor
 
 #### Menu Item Shortcuts
-Find them under **Gamebok/Utility/Open**
+Find them under **Gamebok/Open**
 
 * Open [Persistent Data Path](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html)
 * Open Terminal (MacOS, Windows Terminal, CMD etc)
