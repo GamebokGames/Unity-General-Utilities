@@ -76,28 +76,39 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IMultiplayerMan
 A **generic** variable. Useful for **callbacks**.
 
 ```cs
-public class Player : Monobehaviour 
+public abstract class UIComponentBase<T> : MonoBehaviour
 {
-    public Variable<float> Health;
-
-    public void TakeDamage()
+    protected Variable<T> Data { get; } = new();
+    
+    public void UpdateData(T data)
     {
-        health.SetValue(health.Value - 10f)
+        Data.SetValue(data);
     }
+    
+    protected void OnEnable()
+    {
+        Data.Changed += OnDataChanged;
+    }
+
+    protected void OnDisable()
+    {
+        Data.Changed -= OnDataChanged;
+    }
+    
+    protected abstract void OnDataChanged(T newData);
 }
+```
 
-public class PlayerHealthBar : Monobehaviour 
+```cs
+public class LobbyUIComponent : UIComponentBase<Lobby>
 {
-    public Player player;
-
-    public void Start()
+    public TextMeshProUGUI lobbyNameTmp;
+    public TextMeshProUGUI gameTypeTmp;
+    public TextMeshProUGUI playerCountTmp;
+    
+    protected override void OnDataChanged(Lobby newData)
     {
-        player.Health.Changed += OnHealthUpdated;
-    }
-
-    void OnHealthUpdated(float val)
-    {
-        healthSlider.Value = 100 / val;
+        // update text
     }
 }
 ```
