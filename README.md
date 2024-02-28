@@ -80,6 +80,8 @@ public abstract class UIComponentBase<T> : MonoBehaviour
 {
     protected Variable<T> Data { get; } = new();
     
+    [SerializeField] private UnityEvent<T> updated;
+    
     public void UpdateData(T data)
     {
         Data.SetValue(data);
@@ -88,11 +90,13 @@ public abstract class UIComponentBase<T> : MonoBehaviour
     protected void OnEnable()
     {
         Data.Changed += OnDataChanged;
+        Data.Changed += updated.Invoke;
     }
 
     protected void OnDisable()
     {
         Data.Changed -= OnDataChanged;
+        Data.Changed -= updated.Invoke;
     }
     
     protected abstract void OnDataChanged(T newData);
