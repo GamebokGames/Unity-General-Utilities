@@ -2,7 +2,9 @@
     "name": "Gamebok.GeneralUtilities.Editor",
     "rootNamespace": "Gamebok.GeneralUtilities.Editor",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
